@@ -69,7 +69,7 @@ sparkify-dbt-snowflake/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/<your-username>/sparkify-dbt-snowflake.git
+https://github.com/Mohsin832/sparkify-dbt-transformation-.git
 cd sparkify-dbt-snowflake
 ```
 
