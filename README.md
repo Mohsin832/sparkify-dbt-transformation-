@@ -16,7 +16,7 @@ Running `dbt run && dbt test` re-executes staging → marts → tests on every c
 
 ## Table schema (star schema)
 
-![Table schema](image(1).png)
+![Table schema](image%20(1).png)
 
 **Fact table**
 - `songplays` — songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
