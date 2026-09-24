@@ -1,0 +1,1 @@
+select distinct userId, firstName, lastName,gender, level from {{ref('stg_logs')}}

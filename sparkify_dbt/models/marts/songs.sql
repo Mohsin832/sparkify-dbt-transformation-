@@ -1,0 +1,1 @@
+select song_id, title, artist_id, year, duration from {{ref('stg_song')}}

@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: raw
+    database: sparkify_db
+    schema: raw
+    tables:
+      - name: song_data_raw
+      - name: log_data_raw

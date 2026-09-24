@@ -1,0 +1,118 @@
+[0m11:14:41.303817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD295AE120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD2714CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD2BF1B890>]}
+
+
+============================== 11:14:41.308663 | 8ba11be1-0abc-4554-8381-98e471f77bb3 ==============================
+[0m11:14:41.308663 [info ] [MainThread]: Running with dbt=1.12.5
+[0m11:14:41.309917 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\KHATRI\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init sparkify_dbt', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m11:14:41.325293 [debug] [MainThread]: Starter project path: D:\sparkify dbt transformation\.venv\Lib\site-packages\dbt\include\starter_project
+[0m11:14:41.335241 [info ] [MainThread]: Setting up your profile.
+[0m11:15:01.762360 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m11:15:01.762914 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m11:15:01.763243 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m11:16:20.180441 [info ] [MainThread]: Profile sparkify_dbt written to C:\Users\KHATRI\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m11:16:20.183592 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m11:16:20.184498 [info ] [MainThread]: dbt version: 1.12.5
+[0m11:16:20.185029 [info ] [MainThread]: python version: 3.14.7
+[0m11:16:20.186414 [info ] [MainThread]: python path: D:\sparkify dbt transformation\.venv\Scripts\python.exe
+[0m11:16:20.187344 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m11:16:20.242119 [info ] [MainThread]: Using profiles dir at C:\Users\KHATRI\.dbt
+[0m11:16:20.242767 [info ] [MainThread]: Using profiles.yml file at C:\Users\KHATRI\.dbt\profiles.yml
+[0m11:16:20.243221 [info ] [MainThread]: Using dbt_project.yml file at D:\sparkify dbt transformation\sparkify_dbt\dbt_project.yml
+[0m11:16:20.244060 [info ] [MainThread]: adapter type: snowflake
+[0m11:16:20.244565 [info ] [MainThread]: adapter version: 1.12.1
+[0m11:16:20.360764 [info ] [MainThread]: Configuration:
+[0m11:16:20.362199 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:16:20.363093 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m11:16:20.363746 [info ] [MainThread]: Required dependencies:
+[0m11:16:20.364426 [debug] [MainThread]: Executing "git --help"
+[0m11:16:20.408121 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:16:20.408662 [debug] [MainThread]: STDERR: "b''"
+[0m11:16:20.409104 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:16:20.409551 [info ] [MainThread]: Connection:
+[0m11:16:20.410007 [info ] [MainThread]:   account: HEWFTBQ-AA66203
+[0m11:16:20.410496 [info ] [MainThread]:   user: MOHSIN
+[0m11:16:20.411116 [info ] [MainThread]:   database: sparkify_db
+[0m11:16:20.411557 [info ] [MainThread]:   warehouse: SPARKIFY_WH
+[0m11:16:20.411978 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m11:16:20.412408 [info ] [MainThread]:   schema: sparkify_db.raw
+[0m11:16:20.412868 [info ] [MainThread]:   authenticator: None
+[0m11:16:20.413298 [info ] [MainThread]:   oauth_client_id: None
+[0m11:16:20.413723 [info ] [MainThread]:   query_tag: None
+[0m11:16:20.414150 [info ] [MainThread]:   client_session_keep_alive: False
+[0m11:16:20.414961 [info ] [MainThread]:   host: None
+[0m11:16:20.415681 [info ] [MainThread]:   port: None
+[0m11:16:20.416209 [info ] [MainThread]:   proxy_host: None
+[0m11:16:20.417051 [info ] [MainThread]:   proxy_port: None
+[0m11:16:20.417557 [info ] [MainThread]:   protocol: None
+[0m11:16:20.418099 [info ] [MainThread]:   connect_retries: 1
+[0m11:16:20.418966 [info ] [MainThread]:   connect_timeout: None
+[0m11:16:20.419726 [info ] [MainThread]:   retry_on_database_errors: False
+[0m11:16:20.420398 [info ] [MainThread]:   retry_all: False
+[0m11:16:20.421075 [info ] [MainThread]:   insecure_mode: False
+[0m11:16:20.421706 [info ] [MainThread]:   reuse_connections: True
+[0m11:16:20.437313 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m11:16:20.439293 [info ] [MainThread]:   workload_identity_provider: None
+[0m11:16:20.439955 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m11:16:20.440524 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m11:16:20.441266 [info ] [MainThread]: Registered adapter: snowflake=1.12.1
+[0m11:16:20.743523 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m11:16:20.745598 [debug] [MainThread]: Using snowflake connection "debug"
+[0m11:16:20.745975 [debug] [MainThread]: On debug: select 1 as id
+[0m11:16:20.746236 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:16:23.010933 [debug] [MainThread]: SQL status: SUCCESS 1 in 2.265 seconds
+[0m11:16:23.012127 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:16:23.013040 [info ] [MainThread]: [32mAll checks passed![0m
+[0m11:16:23.013848 [info ] [MainThread]: Your new dbt project "sparkify_dbt" was created!
+Initialized new project in D:\sparkify dbt transformation\sparkify_dbt\sparkify_dbt
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:16:23.015247 [debug] [MainThread]: Command `dbt init` succeeded at 11:16:23.015092 after 101.92 seconds
+[0m11:16:23.015573 [debug] [MainThread]: Connection 'debug' was left open.
+[0m11:16:23.015838 [debug] [MainThread]: On debug: Close
+[0m11:16:23.185241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD2BD428B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD2DEBCB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD2DD7E690>]}
+[0m11:16:23.414318 [debug] [MainThread]: Flushing usage events
+[0m11:16:24.768267 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:21:15.583575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228BD40E120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228BAFACB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228BFDD7890>]}
+
+
+============================== 23:21:15.596662 | 1b7e3c14-b9c1-4954-8a71-cd53e3f1cc11 ==============================
+[0m23:21:15.596662 [info ] [MainThread]: Running with dbt=1.12.5
+[0m23:21:15.598490 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\KHATRI\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run', 'log_path': 'logs'}
+[0m23:21:15.599442 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\sparkify dbt transformation\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:21:15.601309 [debug] [MainThread]: Command `dbt run` failed at 23:21:15.601000 after 0.32 seconds
+[0m23:21:15.602231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228BFE5C640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228BFE8C290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228BFE15480>]}
+[0m23:21:15.603129 [debug] [MainThread]: Flushing usage events
+[0m23:21:16.981935 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:26:26.071200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DEF1D9A120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DEEF92CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DEF4767890>]}
+
+
+============================== 23:26:26.077305 | 00a917b4-602e-47b3-9cc9-e716c5c26f94 ==============================
+[0m23:26:26.077305 [info ] [MainThread]: Running with dbt=1.12.5
+[0m23:26:26.078904 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\KHATRI\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m23:26:26.080196 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\sparkify dbt transformation\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:26:26.082416 [debug] [MainThread]: Command `dbt run` failed at 23:26:26.082096 after 0.27 seconds
+[0m23:26:26.083012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DEF47EC640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DEF481C290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DEF47A5480>]}
+[0m23:26:26.083550 [debug] [MainThread]: Flushing usage events
+[0m23:26:27.892306 [debug] [MainThread]: An error was encountered while trying to flush usage events
